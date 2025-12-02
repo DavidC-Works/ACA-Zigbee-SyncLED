@@ -1,26 +1,42 @@
+# ACA-Zigbee-SyncLED
+
+## Description
+This repository will contain the implementation of a Zigbee-based LED synchronization system developed on the ESP32-C6 platform using ESP-IDF. The project's purpose is to explore synchronized lighting behavior across multiple Zigbee nodes within a dedicated network.
+
+**End Goal:**  
+To create a working Zigbee LED synchronization prototype demonstrating multi-device coordination, low-power Zigbee communication, and ESP32-C6 firmware design.
 
 ---
 
-## 🧠 **ACA-Zigbee-SyncLED**
-```markdown
-# ACA-Zigbee-SyncLED
+## Tech Stack
 
-### Overview
-This project explores Zigbee networking fundamentals using two ESP32-C6 boards.  
-One board acts as a Zigbee Coordinator (network creator) and the other as an End Device, exchanging On/Off cluster commands to synchronize LED states.
+**Languages:**  
+- To be determined (will use ESP-IDF-supported languages)
 
-### Objectives
-- Learn Zigbee stack initialization and network formation.
-- Configure the ESP32-C6 as both coordinator and end device.
-- Implement Zigbee On/Off cluster control for LED toggling.
+**Frameworks / Libraries:**  
+- ESP-IDF (planned)
 
-### Milestones
-- **v0.1** – Coordinator forms Zigbee network
-- **v0.2** – End device joins and syncs LED state
-- **v0.3** – Bidirectional LED control verified
+**Tools:**  
+- Visual Studio Code  
+- ESP-IDF Extension (planned)  
+- GitHub
 
-### Build & Flash
-```bash
-idf.py set-target esp32c6
-idf.py build
-idf.py -p <PORT> flash monitor
+**Dependencies:**  
+- ESP32-C6 development board  
+- Zigbee stack (via ESP-IDF)  
+- Optional sensors or LEDs
+
+---
+
+## Usage Overview
+This repository will store firmware for controlling LED synchronization across Zigbee-enabled devices. Code will focus on transmission timing, event coordination, and handling Zigbee communication patterns for synchronized lighting.
+
+---
+
+## License
+To be decided
+
+---
+
+## Author
+David Cole
